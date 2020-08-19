@@ -12,6 +12,8 @@ public class Main {
         long start = System.currentTimeMillis();
 
         String link = "https://skillbox.ru/";
+
+        //Enter the path where the file will be saved
         String filePath = "";
 
         Parser parser = new Parser(link);
